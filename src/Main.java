@@ -1,18 +1,22 @@
 public class Main {
     public static void main(String[] args) {
 
-        int i = 10000;
-        byte b = 12;
-        short s = 123;
-        long l = 234l;
-        float f = 2.17f;
-        double d = 4.19;
+        int bananas = 5;
+        int milk = 200;
+        int iceCream = 2;
+        int chickenEggs = 4;
 
-        System.out.println("Значение переменной i с типом int равно: " + i);
-        System.out.println("Значение переменной b с типом byte равно: " + b);
-        System.out.println("Значение переменной s с типом short равно: " + s);
-        System.out.println("Значение переменной l с типом long равно: " + l);
-        System.out.println("Значение переменной f с типом float равно: " + f);
-        System.out.println("Значение переменной d с типом double равно: " + d);
+        int bananasGrams = 5 * 80;
+        int milkGrams = 210;
+        int iceCreamGrams = 2 * 100;
+        int chickenEggsGrams = 4 * 70;
+        float totalGrams = bananasGrams + milkGrams + iceCreamGrams + chickenEggsGrams;
+        float totalKilograms = totalGrams / 1000;
+
+        System.out.println("Вес завтрака составит: " + totalGrams + " гр.");
+        System.out.println("Вес завтрака составит: " + totalKilograms + " кг.");
+
+
+
     }
 }
